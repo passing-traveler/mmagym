@@ -39,8 +39,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  body.active {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
   .navbar_link {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .navbar_menu {
@@ -90,3 +97,52 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+/* hero section */
+.hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+    url("./images/gym.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero_content {
+  color: var(--white);
+  padding: 3rem 1rem;
+  line-height: 1;
+}
+
+.hero_content h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hero_content p {
+  font-size: clamp(1rem, 4vw, 2.5rem);
+  margin-bottom: 3rem;
+}
+
+.button {
+  padding: 1rem 3rem;
+  border: none;
+  background: var(--red);
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: var(--black);
+}
+
+/*  services section */
