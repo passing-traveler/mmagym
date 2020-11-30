@@ -1,25 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xpose Fitness</title>
-</head>
-<body>
-  <!-- nav bar -->
-  <nav class="nav">
-    <a href="/" class="navbar_logo">LUX</a>
-    <div class="navbar_toggle" id="mobile-menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xpose Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar">
+      <a href="/" class="navbar_logo">Xpose</a>
+      <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar_menu">
+        <a href="/" class="navbar_link">Home</a>
+        <a href="/services.html" class="navbar_link">Services</a>
+        <a href="/plans.html" class="navbar_link">Plans</a>
+        <a href="/trainers.html" class="navbar_link">Trainers</a>
+      </div>
+    </nav>
+    <!-- Membership Section -->
+    <div class="membership">
+      <h1>View Our Plans</h1>
+      <p class="membership_desc">
+        Get started today and receive 30% off your first month
+      </p>
+      <div class="membership_wrapper">
+        <div class="membership_card">
+          <div class="membership_title">
+            <i class="fas fa-paw card-icon"></i>
+            <h3>Kids</h3>
+          </div>
+          <div class="membership_perks">
+            <p>Get access to all classes</p>
+            <p>$30 per month</p>
+          </div>
+          <a href="/" class="button">Sign Up</a>
+        </div>
+        <div class="membership_card">
+          <div class="membership_title">
+            <i class="fas fa-users card-icon"></i>
+            <h3>Group</h3>
+          </div>
+          <div class="membership_perks">
+            <p>Get access to the entire gym</p>
+            <p>Group Fitness Classes</p>
+            <p>$50 per month</p>
+          </div>
+          <a href="/" class="button">Sign Up</a>
+        </div>
+        <div class="membership_card">
+          <div class="membership_title">
+            <i class="fas fa-dumbbell card-icon"></i>
+            <h3>Private</h3>
+          </div>
+          <div class="membership_perks">
+            <p>Get access to the entire gym</p>
+            <p>Group Fitness Classes</p>
+            <p>Private Personal Training</p>
+            <p>$70 per month</p>
+          </div>
+          <a href="/" class="button">Sign Up</a>
+        </div>
+      </div>
     </div>
-    <div class="navbar_menu">
-      <a href="/" class="navbar_link">Home</a>
-      <a href="/services.html" class="navbar_link">Services</a>
-      <a href="/plans.html" class="navbar_link">Plans</a>
-      <a href="/trainers.html" class="navbar_link">Trainers</a>
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="footer_wrapper">
+        <div class="footer_desc">
+          <h1>Xpose Fitness</h1>
+          <p>Martial Arts Gym located in downtown Oakland.</p>
+          <p id="phone">510 - 777 - 3737</p>
+        </div>
+        <div class="footer_links">
+          <h2 class="footer_title">Contact Us</h2>
+          <a href="/services.html" class="footer_link">Contact</a>
+          <a href="/services.html" class="footer_link">Support</a>
+          <a href="/services.html" class="footer_link">Sponsorships</a>
+        </div>
+      </div>
+      <div class="footer_wrapper">
+        <div class="footer_links">
+          <h2 class="footer_title">Memberships</h2>
+          <a class="footer_link" href="/">Pricing</a>
+          <a class="footer_link" href="/">Plans</a>
+          <a class="footer_link" href="/">FAQ</a>
+        </div>
+        <div class="footer_links">
+          <h2 class="footer_title">Social Media</h2>
+          <a class="footer_link" href="/">Instagram</a>
+          <a class="footer_link" href="/">Facebook</a>
+          <a class="footer_link" href="/">Twitter</a>
+        </div>
+      </div>
     </div>
-  </nav>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
