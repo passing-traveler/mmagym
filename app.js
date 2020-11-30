@@ -70,5 +70,5 @@ gsap.from(".animate-email", {
   opacity: 0,
   y: -150,
   stagger: 0.25,
-  delay: 0.4,
+  delay: 0.7,
 });
